@@ -1,0 +1,190 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Roboto', sans-serif;
+}
+.clearfix {
+	clear: both;
+}
+h1,
+h3 {
+	margin: 10px 0px;
+	font-weight: 700;
+}
+p {
+	margin: 10px;
+	font-size: small;
+}
+.container {
+	width: 66%;
+	margin: auto;
+}
+
+.header {
+	background-color: rgb(9, 33, 33);
+	width: 100vw;
+	padding: 10px;
+	position: fixed;
+	box-shadow: 0px 1px 5px black;
+}
+
+.header h1 {
+	color: white;
+	float: left;
+	margin-right: 30px;
+}
+.header ul {
+	color: gray;
+	margin-top: 20px;
+	float: left;
+}
+.icons {
+	float: right;
+	color: white;
+}
+.icons img {
+	width: 20px;
+}
+li {
+	display: inline-block;
+	margin: 0px 10px;
+}
+
+.hero {
+	background-image: url(../media/hero.jpeg);
+	background-size: cover;
+	background-attachment: fixed;
+
+	color: white;
+}
+.hero {
+	padding-top: 300px;
+	padding-bottom: 50px;
+}
+
+.button {
+	padding: 10px 20px;
+	background-color: tomato;
+	margin: 15px 0px;
+	display: inline-block;
+	font-weight: bold;
+	letter-spacing: 2px;
+
+	font-variant: small-caps;
+}
+
+.strip {
+	background-color: white;
+	padding: 15px;
+}
+.links {
+	text-align: center;
+}
+.links li {
+	margin: 0px 30px;
+}
+
+.main {
+	background-color: whitesmoke;
+}
+
+.main .container {
+	padding: 10px;
+}
+.mainbox {
+	background-color: white;
+	padding: 10px;
+	width: 63%;
+	float: left;
+}
+
+#photo {
+	width: 250px;
+	height: 200px;
+}
+
+.article {
+	width: 50%;
+	float: right;
+}
+.article .button {
+	background-color: black;
+	color: white;
+	float: right;
+}
+.article p {
+	margin: 0px;
+	font-size: smaller;
+}
+.myphoto {
+	width: 50%;
+	float: left;
+}
+
+.side {
+	float: right;
+	width: 33%;
+}
+.side .box {
+	background-color: lightgray;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+.side p {
+	font-size: smaller;
+}
+
+.box h4,
+h2 {
+	margin: 10px;
+	color: tomato;
+}
+
+.card {
+	width: 27%;
+	margin: 15px;
+	display: inline-block;
+	text-align: center;
+}
+.card image {
+	margin: auto;
+}
+
+.video {
+	background-color: rgb(9, 33, 33);
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
+.video p {
+	color: gray;
+}
+
+.col {
+	float: left;
+	width: 30%;
+	padding: 10px;
+}
+
+.contact {
+	color: tomato;
+}
+
+.footer h3 {
+	color: grey;
+}
+.post img {
+	width: 100px;
+	float: left;
+	margin: 5px;
+}
+.post h5 {
+	float: left;
+}
+
+.tags h6,
+.tags h5 {
+	color: tomato;
+	display: inline-block;
+	margin-right: 20px;
+}
